@@ -1,0 +1,34 @@
+<!DOCTYPE Html>
+<html>
+<body>
+	<h2>What have I learned about JavaScript today?</h2>
+	
+<ul>
+	<li>How to replace text by clicking a button. </li>
+	<li>How to replace an image by clicking a button. </li>
+</ul>
+
+<b> How to replace text by clicking a button.</b>
+
+<p id='text'>THIS IS THE TEXT THAT WILL CHANGE</p>
+
+<button type ="button" onclick='document.getElementById("text").innerHTML = "JUST LIKE MAGIC"'>Click Me!</button>
+
+<p></p>
+
+<b> How to replace an image by clicking a button.</b>
+
+<p></p>
+<img id="morph" src="images/chicken.jpg" style="width:200px">
+
+<button type="button" onclick='document.getElementById("morph"). src="images/goat.jpg"'> Morph!</button>
+
+<p></p>
+
+<button type="button" onclick='document.getElementById("text").innerHTML = "THIS IS THE TEXT THAT WILL CHANGE"'>RESET TEXT BUTTON!</button>
+
+<button type ="button" onclick='document.getElementById("morph"). src="images/chicken.jpg"'>RESET IMAGE BUTTON!</button>
+	
+	
+</body>
+</html>
